@@ -14,10 +14,17 @@ h1, h2, h3 {
 h1, h3 {
   color: #AC0C0C;
 }
+#banner {
+  text-align: center;
+  background-clip: url("https://unsplash.it/1300/1200?image=1067");
+  background-size: cover;
+  padding-top: 30px;
+}
 
 a {
   text-decoration: none;
   color: #343434;
+  transition:opacity 0.3s ease;
 }
 
 a:hover {
@@ -30,12 +37,17 @@ a:hover {
   border-radius:3px;
   box-shadow: 1px 1px 3px rgba(0,0,0,0.3);
   margin: 10px auto;
+  opacity: 0.8;
 /*  width: 80%;*/
+}
+.section-white h3 {
+  font-weight: lighter;
+  padding-left: 10px;
 }
 
 #photo-circle {
   border-radius: 50%;
-  height: 200px;
+  height: 170px;
 }
 
 .img-circle {
@@ -55,17 +67,9 @@ a:hover {
   padding-left: 0px;
 }
 
-#banner {
-  text-align: center;
-  background-image: url("https://unsplash.it/1300/1200?image=1067");
-}
 
 .column_right {
   padding-left : 30px;
-}
-
-.text-margin {
-  padding left: 20px;
 }
 
 .container{
@@ -93,7 +97,8 @@ a:hover {
 }
 
 .text-margin {
-  padding-left: 20px;
+  padding-left: 40px;
+  font-weight: lighter;
 }
 
 #sidebar {
@@ -111,4 +116,15 @@ a:hover {
 }
 #page-content {
   margin-left: 150px;
+}
+
+#video {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -100;
 }
