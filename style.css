@@ -1,0 +1,97 @@
+body {
+background: #ACBDC5;
+font-family:'Montserrat', sans-serif;
+color: #343434;
+font-size: 16px;
+font-weight: lighter;
+line-height: 20px;
+}
+
+h1, h2, h3 {
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1, h3 {
+  color: #AC0C0C;
+}
+
+a {
+  text-decoration: none;
+  color: #343434;
+}
+
+a:hover {
+  opacity:0.5;
+}
+
+.section-white {
+  background-color: white;
+  padding: 40px;
+  border-radius:3px;
+  box-shadow: 1px 1px 3px rgba(0,0,0,0.3);
+  margin: 10px auto;
+/*  width: 80%;*/
+}
+
+#photo-circle {
+  border-radius: 50%;
+  height: 200px;
+}
+
+.img-circle {
+  border-radius: 3px;
+  height: 200px;
+  width: 300px;
+}
+
+.list-inline > li {
+  list-style: none;
+  display: inline-block;
+  padding: 0px 30px;
+}
+
+.list-inline {
+  text-align: center;
+  padding-left: 0px;
+}
+
+#banner {
+  text-align: center;
+  background-image: url("https://unsplash.it/1300/1200?image=1067");
+}
+
+.column_right {
+  padding-left : 30px;
+}
+
+.text-margin {
+  padding left: 20px;
+}
+
+.container{
+  padding: 25px;
+  margin: 10px auto;
+  width: 900px;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+.text-margin {
+  padding-left: 20px;
+}
