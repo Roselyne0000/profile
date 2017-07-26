@@ -95,3 +95,20 @@ a:hover {
 .text-margin {
   padding-left: 20px;
 }
+
+#sidebar {
+  position: fixed;
+  background: white;
+  width: 150px;
+  left: 0;
+  top: 0;
+  bottom: 0;
+}
+
+#sidebar a {
+  display: block;
+  margin: 50px;
+}
+#page-content {
+  margin-left: 150px;
+}
